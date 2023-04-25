@@ -21,7 +21,7 @@ export default function Contacts({ contacts, changeChat }) {
       {currentUserImage && currentUserImage && (
         <Container>
           <div className="brand">
-            <h3>Chatify</h3>
+            <h3>CHAT-APP</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
